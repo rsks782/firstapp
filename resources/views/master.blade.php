@@ -17,11 +17,37 @@
     {{View::make('header')}}
     @yield('content')
     {{View::make('footer')}}
+
 </body>
 <style>
     .custom-login{
         height: 500px;
         padding-top: 100px;
     }
-</style>     
+    img.slider-img{
+        height: 400px !important
+    }
+    .custom-product{
+      height: 600px
+    }
+    .slider-text{
+        background-color: #3f603f8a !important;
+    }
+    .trending-image{
+        height: 100px
+    }
+    .trending-item{
+        float: left;
+        width: 20%;
+    }
+    .trending-wrapper{
+        margin: 30px;
+    }
+    .detail-img{
+        height: 200px;
+    }
+    .search-box{
+        width: 500px !important
+    }
+</style>
 </html>
